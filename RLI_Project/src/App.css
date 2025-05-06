@@ -1,0 +1,48 @@
+
+@import "tailwindcss";
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+code {
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.amir{
+  color: black;
+  font-style: italic;
+  font-size: large;
+  margin: 1%;
+}
+
+.headerproject{
+
+  color: black;
+  font-size: x-large;
+  
+}

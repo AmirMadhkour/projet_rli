@@ -1,0 +1,13 @@
+{
+    "id": "write-register",
+    "type": "modbus-write",
+    "name": "Write Register",
+    "topic": "",
+    "showStatusActivities": false,
+    "showErrors": true,
+    "unitid": "1",
+    "dataType": "HoldingRegister",
+    "adr": "0",
+    "quantity": "1",
+    "server": "modbus-client"
+  }

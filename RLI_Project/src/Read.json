@@ -1,0 +1,16 @@
+{
+    "id": "read-holding",
+    "type": "modbus-read",
+    "name": "Read Holding Registers",
+    "topic": "",
+    "showStatusActivities": false,
+    "showErrors": true,
+    "unitid": "1",
+    "dataType": "HoldingRegister",
+    "adr": "0",
+    "quantity": "5",
+    "server": "modbus-client",
+    "useIOFile": false,
+    "ioFile": "",
+    "useIOForPayload": false
+  }
